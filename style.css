@@ -1,0 +1,173 @@
+body {
+    font-family: 'Segoe UI';
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    text-transform: none;
+}
+
+
+ul {
+    list-style-type: none;
+    text-align: right;
+    padding: 15px;
+    display: inline;
+}
+
+li {
+    display: inline;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.header {
+    background-image: url('./img/6333722.jpg');
+    background-attachment: fixed;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.title {
+    color: white;
+    padding: 98px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.title:hover {
+    padding: 110px;
+}
+
+.about, .sosmed {
+    background-color: dodgerblue;
+}
+
+.sosmed {
+    text-align: center;
+}
+
+.project {
+    background-color: white;
+}
+
+.card, .card-project {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 38px;
+    font-size: 24px;
+    transition: 0.3s;
+}
+
+.card {
+    color: white;
+}
+
+.card-project {
+    color: dodgerblue;
+    text-align: right;
+}
+
+.card-header {
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.card-header-project {
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-size: 26px;
+}
+
+.card:hover, .card-project:hover {
+    padding: 45px;
+}
+
+.project-item {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.project-selection {
+    flex-basis: 500px;
+}
+
+.project-card, .project-card-special {
+    background-color: dodgerblue;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    color: white;
+    height: auto;
+    
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 15px;
+    transition: 0.3s;
+    box-shadow: 0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+                0 12.5px 10px rgba(0, 0, 0, 0.06),
+                0 22.3px  17.9px rgba(0, 0, 0, 0.072),
+                0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+                0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+.project-card {
+    width: 80%;
+    padding: 22px;
+}
+
+.project-card-special {
+    width: 80%;
+    padding: 18px;
+}
+
+.project-card:hover, .project-card-special:hover {
+    padding: 26px;
+}
+
+.content-text {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.btn {
+    padding: 8px;
+    font-weight: bold;
+    background: white;
+    color: dodgerblue;
+    font-size: 18px;
+    border-radius: 15px;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    padding: 10px;
+}
+
+.button {
+    display: block;
+}
+
+.footer {
+    padding: 30px;
+    text-align: center;
+    font-size: 16px;
+    background-color: dodgerblue;
+    color: white;
+}
