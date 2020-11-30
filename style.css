@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 body {
-    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     margin: 0;
     padding: 0;
     background-color: whitesmoke;
@@ -27,7 +28,7 @@ li {
 }
 
 .header {
-    background-image: url('./img/6333722.jpg');
+    background-image: url('./img/283944-cat-wallpaper-1920x1200-free-download.jpg');
     background-attachment: fixed;
 }
 
@@ -153,7 +154,7 @@ li {
     background: white;
     color: dodgerblue;
     font-size: 18px;
-    border-radius: 15px;
+    border-radius: 30px;
     margin-right: 10px;
     transition: 0.3s;
 }
