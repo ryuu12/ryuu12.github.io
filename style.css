@@ -32,6 +32,8 @@ li {
     background-attachment: fixed;
 }
 
+
+
 .navbar {
     background-color: white;
 }
@@ -141,6 +143,10 @@ li {
     border-radius: 100%;
 }
 
+.stats {
+    margin-bottom: 20px;
+}
+
 .btn {
     padding: 15px;
     font-weight: bold;
@@ -186,5 +192,9 @@ li {
         margin-left: auto;
         width: 70%;
         margin-bottom: 50px;
+    }
+
+    .stats {
+        max-width: 100%;
     }
 }
