@@ -1,200 +1,217 @@
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css");
 
 body {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: whitesmoke;
 }
 
 a {
     text-decoration: none;
-    text-transform: none;
-}
-
-
-ul {
-    list-style-type: none;
-    text-align: right;
-    padding: 15px;
-    display: inline;
 }
 
 li {
-    display: inline;
-    padding: 20px;
-    font-size: 18px;
+    list-style: none;
 }
 
-.header {
-    background-image: url('./img/6333722.jpg');
-    background-attachment: fixed;
-}
-
-
-
-.navbar {
-    background-color: white;
-}
-
-.title {
-    color: white;
-    transition: 0.3s;
-}
-
-.about, .sosmed {
-    background-color: dodgerblue;
-}
-
-.sosmed {
-    text-align: center;
-}
-
-.project {
-    background-color: white;
-}
-
-.card, .card-project {
-    width: 70%;
-    height: auto;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 38px;
-    font-size: 24px;
-    transition: 0.3s;
-}
-
-.card {
-    color: white;
-}
-
-.card-project {
-    color: dodgerblue;
-    text-align: right;
-}
-
-.card-header {
-    font-weight: bolder;
-    margin-bottom: 10px;
-}
-
-.card-header-project {
-    font-weight: bolder;
-    margin-bottom: 10px;
-}
-
-.card-title {
-    font-size: 26px;
-}
-
-.project-item {
-    width: 100%;
+.row, .row-l, .row-c {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+}
+
+.row-c {
     justify-content: center;
 }
 
-.project-selection {
-    flex-basis: 320px;
+.row-l {
+    justify-content: left;
 }
 
-.project-card, .project-card-special {
-    background-color: dodgerblue;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 20px;
-    color: white;
-    height: 65%;
-    font-size: 22px;
-    font-weight: bold;
-    border-radius: 10px;
-    transition: 0.3s;
-    
+.col-s {
+    flex-basis: 190px;
 }
 
-.project-card {
-    width: 80%;
-    padding: 22px;
+.col-m {
+    flex-basis: 32%;
 }
 
-.project-card-special {
-    width: 80%;
-    padding: 18px;
+.col-l {
+    flex-basis: 70%;
 }
 
-.project-card:hover, .project-card-special:hover {
-    background-color: #1462A4;
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 24px;
 }
 
-.content-text {
-    font-size: 18px;
-    font-weight: normal;
+.nav-title {
+    float: left;
+    font-weight: 700;
+}
+
+.nav-item {
+    float: right;
+    padding-right: 20px;
+    font-weight: 300;
+}
+
+.nav-link {
+    color: black;
+}
+
+#Header {
+    font-size: 24px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    padding-left: 50px;
+    line-height: 1.2;
 }
 
 .pfp {
-    float: left;
-    height: auto;
-    width: 16%;
-    margin-right: 25px;
+    width:167px;
+    height: 167px;
     border-radius: 100%;
 }
 
-.stats {
-    margin-bottom: 20px;
+.f-36 {
+    font-size: 36px;
+    margin-bottom: 0rem;
 }
 
-.btn {
-    padding: 15px;
-    font-weight: bold;
-    background: white;
-    color: dodgerblue;
-    font-size: 30px;
-    border-radius: 30px;
-    margin-right: 10px;
-    transition: 0.3s;
+#Project {
+    padding: 50px;
 }
 
-.btn:hover {
-    background: lightgray;
-}
-
-.button {
-    display: block;
-}
-
-.cnt {
-    font-size: 30px;
+.card {
+    background-color: black;
     color: white;
-    padding: 15px;
-}
-
-.footer {
-    padding: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
     text-align: center;
-    font-size: 16px;
-    background-color: dodgerblue;
-    color: white;
+    line-height: 0.2;
+    padding: 80px 110px 80px 110px;
+    border-radius: 15px;
+    margin: 5px;
+    transition: 0.2s;
+}
+
+.card:hover {
+    background-color: white;
+    color: black;
+}
+
+.card-title {
+    font-size: 36px;
+}
+
+.card-desc {
+    font-size: 20px;
+}
+
+#About {
+    padding: 50px;
+}
+
+.picture {
+    width: 311px;
+    height: 352px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.profile {
+    padding-left: 30px;
+}
+
+.profile-title {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.profile-desc {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+footer {
+    padding: 50px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.social {
+    color: rgb(17, 17, 17);
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+@media screen and (min-height: 800px) {
+    .navbar {
+        padding-right: 300px;
+        padding-left: 300px;
+    }
+    #Header {
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+    #About {
+        padding: 300px;
+    }
+    #Project {
+        padding-left: 270px;
+        padding-right: 270px;
+    }
 }
 
 @media screen and (max-width: 540px) {
-    .project-card, .project-card-special {
-        height: auto;
+    .row-l {
+        justify-content: center;
     }
-
-    .pfp {
-        float: none;
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-        width: 70%;
-        margin-bottom: 50px;
+    .navbar {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: 18px;
     }
-
-    .stats {
-        max-width: 100%;
+    .nav-item {
+        padding-right: 10px;
+    }
+    #Header {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .card {
+        padding: 180px;
+        border-radius: 15px;
+    }
+    .col-m {
+        flex-basis: 100%;
+    }
+    footer {
+        padding: 50px;
+        text-align: center;
+    }
+    .social {
+        color: rgb(17, 17, 17);
+        padding: 5px;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    #About {
+        padding: 20px;
+    }
+    .profile {
+        padding: 20px;
+    }
+    .col-l {
+        flex-basis: 100%;
     }
 }
