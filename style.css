@@ -94,8 +94,8 @@ li {
     border-color: black;
     border-width: 2px;
     text-align: center;
-    line-height: 0.2;
-    padding: 80px 110px 80px 110px;
+    line-height: 1.2;
+    padding: 80px;
     border-radius: 15px;
     margin: 5px;
     transition: 0.2s;
@@ -188,9 +188,11 @@ footer {
         padding-left: 50px;
         padding-right: 50px;
     }
+    #Project{
+        padding: 0;
+    }
     .card {
-        padding: 180px;
-        border-radius: 15px;
+        padding: 50px;
     }
     .col-m {
         flex-basis: 100%;
